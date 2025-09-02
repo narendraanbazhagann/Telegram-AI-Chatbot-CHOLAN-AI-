@@ -191,3 +191,8 @@ If you encounter any issues or have questions:
 ---
 
 **Made with ❤️ for the farming community**
+Authors
+Narendra Anbazhagan
+Lokesh S
+Deekshana CS
+Darshana PS
