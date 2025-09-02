@@ -71,14 +71,29 @@ Cholan AI is a friendly Telegram bot designed to assist farmers and agricultural
 
 ```
 cholan-ai-bot/
-├── main.py              # Main bot application
-├── config.py            # Configuration settings
-├── data.py              # Static data (jokes, trivia, etc.)
-├── requirements.txt     # Python dependencies
-├── README.md           # Project documentation
-├── .env                # Environment variables (create this)
-├── .gitignore          # Git ignore rules
-└── conversations.json  # Chat history (auto-generated)
+├── 📁 src/                          # Source code
+│   ├── 📄 main.py                   # Application entry point
+│   ├── 📁 bot/                      # Bot modules
+│   │   ├── 📄 handlers.py           # Message handling
+│   │   └── 📄 commands.py           # Command implementations
+│   ├── 📁 utils/                    # Utilities
+│   │   ├── 📄 ai_handler.py         # AI integration
+│   │   ├── 📄 logger.py             # Logging system
+│   │   └── 📄 moderation.py         # Content moderation
+│   └── 📁 data/                     # Static data
+│       ├── 📄 jokes.py              # 80+ farming jokes
+│       ├── 📄 trivia.py             # 20+ trivia questions
+│       └── 📄 responses.py          # Response templates
+├── 📁 config/                       # Configuration
+│   └── 📄 config.py                 # Settings & API keys
+├── 📄 requirements.txt              # Dependencies
+├── 📄 requirements-dev.txt          # Dev dependencies
+├── 📄 .env.example                  # Environment template
+├── 📄 .gitignore                    # Git ignore rules
+├── 📄 README.md                     # Documentation
+├── 📄 Dockerfile                    # Docker setup
+├── 📄 docker-compose.yml            # Container orchestration
+└── 📄 setup.py                      # Package setup
 ```
 
 ## ⚙️ Configuration
