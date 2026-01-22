@@ -188,6 +188,11 @@ If you encounter any issues or have questions:
 - [ ] Advanced analytics dashboard
 - [ ] Voice message support
 
+
+📫 Creator & Contact
+
+Creator: Narendra A
+Email: narennarennatendra@gmail.com
 ---
 
 **Made with ❤️ for the farming community**
